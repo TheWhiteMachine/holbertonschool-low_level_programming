@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-
+/**
+* main - main function
+* Return: cero
+*/
 
 int main(void)
 
