@@ -2,11 +2,11 @@
 #include <string.h>
 
 
-char frase[]="\"Programming is like building a multilingual puzzle";
+char frase[] = "\"Programming is like building a multilingual puzzle";
 
-int main (void)
+int main(void)
 
 {
-	puts (frase);
-	return (0);
+	puts( frase );
+	return(0);
 }
