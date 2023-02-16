@@ -14,8 +14,8 @@ int main(void)
 
 	for (; c < 123; c++)
 	{
-	putchar(c);
+	putchar (c);
 	}
-	putchar(12);
-	return(0);
+	putchar (12);
+	return (0);
 }
