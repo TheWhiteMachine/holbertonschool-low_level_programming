@@ -18,7 +18,7 @@ int main(void)
 	}
 	for (c = 65; c < 91; c++)
 	{
-	putchar (c)
+	putchar (c);
 	}
 	putchar ('\n');
 	return (0);
