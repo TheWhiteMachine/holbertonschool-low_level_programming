@@ -10,7 +10,7 @@
 */
 int main(void)
 {
-	int  c = 121;
+	int  c = 122;
 
 	for (; c >= 97; c--)
 	{
