@@ -9,10 +9,11 @@
 
 int main(void)
 {
-	char frase[] = "_putchar\n";
+	char frase[] = "_putchar";
 	int i = 0;
 
-	for (i = 0; i <= 9; i++)
+	for (; i <= 8; i++)
 		_putchar(frase[i]);
+	_putchat('\n');
 	return (0);
 }
