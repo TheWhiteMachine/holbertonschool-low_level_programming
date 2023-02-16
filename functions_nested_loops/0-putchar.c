@@ -14,6 +14,6 @@ int main(void)
 
 	for (; i <= 7; i++)
 		_putchar(frase[i]);
-	_putchat('\n');
+	_putchar('\n');
 	return (0);
 }
