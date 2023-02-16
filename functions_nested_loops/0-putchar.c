@@ -12,7 +12,7 @@ int main(void)
 	char frase[] = "_putchar";
 	int i = 0;
 
-	for (; i <= 8; i++)
+	for (; i <= 7; i++)
 		_putchar(frase[i]);
 	_putchat('\n');
 	return (0);
