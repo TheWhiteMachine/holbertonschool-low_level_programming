@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char frase[] = "_putchar";
+	char frase[] = "_putchar\n";
 	int i = 0;
 
 	for (i = 0; i <= 9; i++)
