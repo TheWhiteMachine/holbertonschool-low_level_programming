@@ -10,9 +10,9 @@
 */
 int main(void)
 {
-	int  = c;
+	int  c = 97;
 
-	for (c = 97; c < 121; c++)
+	for (; c < 121; c++)
 	{
 	putchar(c)
 	}
