@@ -6,7 +6,7 @@
 /**
  * main - Entry point
  *
- * Return : Print the Alphabet
+ * Return: Print the Alphabet
 */
 int main(void)
 {
