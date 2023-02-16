@@ -10,7 +10,7 @@
 */
 int main(void)
 {
-i	int  c = 97;
+	int  c = 97;
 
 	for (; c < 123; c++)
 	{
