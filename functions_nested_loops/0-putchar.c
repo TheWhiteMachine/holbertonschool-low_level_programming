@@ -1,13 +1,18 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
 
+
 int main(void)
 {
-	printf("%s", "_putchar\n");
-	return (0);
+	char frase[9] = "_putchar\n"
+
+	for (int i; i >= strlen(frase)-1; i++)
+	{
+	_putchar(frase[i]);
+	}
+	return(0)
 }
