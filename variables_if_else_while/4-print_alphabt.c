@@ -14,7 +14,7 @@ int main(void)
 
 	for (; c < 123; c++)
 	{
-	if (c != 101 || c != 113)
+	if (c != 101 && c != 113)
 		{
 		putchar (c);
 		}
