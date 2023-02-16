@@ -1,4 +1,4 @@
-i#include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
@@ -6,12 +6,12 @@ i#include <stdlib.h>
 /**
  * main - Entry point
  *
- * Return : Print the Alphabet  
- */
+ * Return : Print the Alphabet
+*/
 int main(void)
 {
 	int  = c;
-	
+
 	for (c = 97; c < 121; c++)
 	{
 	putchar(c)
