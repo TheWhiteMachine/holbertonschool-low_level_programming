@@ -2,7 +2,6 @@
 
 /**
  * _print_alphabet - writes the alphabet
- * @c: The character to print in int from the a char
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
