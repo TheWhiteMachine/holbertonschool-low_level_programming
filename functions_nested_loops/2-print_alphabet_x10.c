@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 		{
 		_putchar (c);
 		}
-		if (c == 122)
+		if (c == 121)
 		{
 		c = 97;
 		}
