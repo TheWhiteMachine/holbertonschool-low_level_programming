@@ -4,43 +4,26 @@
  * jack_bauer - check if a char is alphanumeric
  * Return: On lowwer 1 in not lower 0
  * On error, -1 is returned, and errno is set appropriately.
- * @c : char
  */
 
 void jack_bauer(void)
 {
-	int m = 0;
-	int md = 0;
 	int h = 0;
-	int hd = 0;
-	int cicles = 0;
+	int m = 0;
 
-	for (cicles = 0; cicles < 3; cicles++)
+	while (h < 24)
 	{
-	_putchar(hd * '0');
-	_putchar(h * '0');
-	_putchar(58);
-	_putchar(md * '0');
-	_putchar(m * '0');
-	_putchar('\n');
-	for (m = 0; m < 9; m++)
-	{
-		if (m > 9)
+		while (m < 60)
 		{
-			md += 1;
-			m = 0;
+			_putchar('0' + (h / 10));
+			_putchar('0' + (h % 10));
+			_putchar(':');
+			_putchar('0' + (m / 10));
+			_putchar('0' + (m % 10));
+			_putchar('\n');
+			m++;
 		}
-		if (md > 5)
-		{
-			h += 1;
-			md = 0;
-		}
-		if (h > 12)
-		{
-			hd += 1;
-			h = 0;
-		}
+		m = 0;
+		h++;
 	}
-	}
-
 }
