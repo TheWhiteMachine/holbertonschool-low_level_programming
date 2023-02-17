@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _print_alphabet - writes the alphabet
- *
+ * print_alphabet - writes the alphabet
+ * 
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
