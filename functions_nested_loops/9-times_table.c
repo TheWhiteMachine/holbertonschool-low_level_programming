@@ -7,15 +7,19 @@
  */
 void times_table(void)
 {
-	int n = 0;
+	int x = 0;
+	int y = 0;
 	int t = 0;
 	int r = 0;
 
-	for (n = 0; n < 11; n++)
+
+	for (t = 0;t < 11; t++)
 	{
-		for (t = 0; t < 11; t++)
+		for (y 0; y < 11; y++)
+		{	
+		for (x = 0; x < 11; x++)
 		{
-			r = t * n;
+			r = x * y;
 			if (r > 9)
 				_putchar('0' + (r % 10));
 			else
@@ -23,5 +27,6 @@ void times_table(void)
 			_putchar(',');
 		}
 		_putchar('\n');
+		}
 	}
 }
