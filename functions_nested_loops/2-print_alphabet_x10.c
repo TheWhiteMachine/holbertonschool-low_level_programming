@@ -15,12 +15,8 @@ void print_alphabet_x10(void)
 	{
 		for (; c < 123; c++)
 		{
-		_putchar (c);
-		if (c == 122)
-		{
-		c = 97;
+			_putchar (c);
 		}
-		}
-	_putchar ('\n');
+		_putchar ('\n');
 	}
 }
