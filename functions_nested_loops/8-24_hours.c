@@ -9,11 +9,11 @@
 
 void jack_bauer(void)
 {
-	int m;
-	int md;
-	int h;
-	int hd;
-	int cicles;
+	int m = 0;
+	int md = 0;
+	int h = 0;
+	int hd = 0;
+	int cicles = 0;
 
 	for (cicles = 0; cicles < 3; cicles++)
 	{
