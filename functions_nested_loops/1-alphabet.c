@@ -1,12 +1,20 @@
 #include "main.h"
-#include <string.h>
+
 /**
- * main - check the code
+ * _print_alphabet - writes the alphabet
+ * @c: The character to print in int from the a char
  *
- * Return: Always 0.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int  c = 97;
+
+	for (; c < 123; c++)
+	{
+	putchar (c);
+	}
+	putchar ('\n');
 }
