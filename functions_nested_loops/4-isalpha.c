@@ -15,7 +15,7 @@ int _isalpha(int c)
 		r = 1;
 	else if (c > 64 && c < 91)
 		r = 1;
-	else if (c > 47 && c < 59)
+	else if (c > 47 && c < 56)
 		r = 1;
 	else
 	       r = 0;
