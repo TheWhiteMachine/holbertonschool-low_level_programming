@@ -4,7 +4,7 @@
  * _abs - check if a char is alphanumeric
  * Return: On lowwer 1 in not lower 0
  * On error, -1 is returned, and errno is set appropriately.
- * @int : int
+ * @n : int
  */
 
 int _abs(int n)
