@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	add(int, int);
+	print_to_98(int);
 	return (0);
 }
