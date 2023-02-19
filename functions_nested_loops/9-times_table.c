@@ -10,7 +10,7 @@ void times_table(void)
 	int x = 0;
 	int y = 0;
 	int t = 0;
-	int numbers[] = 1,2,3,4,5,6,7,8,9,;
+	int numbers[] = {1,2,3,4,5,6,7,8,9};
 	int r = 0;
 
 
