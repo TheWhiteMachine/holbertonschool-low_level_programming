@@ -10,13 +10,13 @@ void times_table(void)
 	int x = 0;
 	int y = 0;
 	int t = 0;
-	int numbers[] = {1,2,3,4,5,6,7,8,9};
+	int numbers[] = {0,1,2,3,4,5,6,7,8,9};
 	int r = 0;
 
 
 	for (t = 0;t < 10; t++)
 	{
-		for (x = 0; x < 11; x++)
+		for (x = 0; x < 10; x++)
 		{	
 			r = x * numbers[y];
 			if (r > 9)
