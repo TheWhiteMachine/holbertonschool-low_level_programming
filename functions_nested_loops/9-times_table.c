@@ -14,19 +14,27 @@ void times_table(void)
 	int r = 0;
 
 
-	for (t = 0;t < 11; t++)
+	for (t = 0;t < 10; t++)
 	{
 		for (x = 0; x < 11; x++)
 		{	
 			r = x * numbers[y];
 			if (r > 9)
+			{
+				_putchar(' ');
+				_putchar('0' + (r / 10));
 				_putchar('0' + (r % 10));
+			}
 			else
+			{
+				
+				_putchar(' ');	
+				_putchar(' ');
 				_putchar('0' + r);
+			}
 			_putchar(',');
 		}
 		y += 1;
 		_putchar('\n');
-		}
 	}
 }
