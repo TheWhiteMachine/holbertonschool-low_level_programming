@@ -21,7 +21,7 @@ void times_table(void)
 			r = x * numbers[y];
 			if (r > 9)
 			{
-				_putchar('.');
+				_putchar(' ');
 				_putchar('0' + (r / 10));
 				_putchar('0' + (r % 10));
 			}
@@ -29,8 +29,8 @@ void times_table(void)
 			{
 				if (x != 0)
 				{
-					_putchar('.');
-					_putchar('.');
+					_putchar(' ');
+					_putchar(' ');
 				}
 				_putchar('0' + r);
 			}
