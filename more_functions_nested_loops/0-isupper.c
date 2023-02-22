@@ -6,7 +6,7 @@
  * Return: 1 for uppercase and 'c'c to not.
  * @c: an integer number
  */
-int _isupp(int c)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
