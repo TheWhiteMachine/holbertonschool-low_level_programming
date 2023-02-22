@@ -5,7 +5,6 @@
  *
  * Return: the result of a and b multiplication.
  * @a: an integer number
- * @b: other integer
  */
 
 int mul(int a, int b)
