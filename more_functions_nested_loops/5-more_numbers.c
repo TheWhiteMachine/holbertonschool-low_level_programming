@@ -19,7 +19,7 @@ void more_numbers(void)
 			{
 			first = '0' + (i / 10);
 			last = '0' + (i % 10);
-			result = first + last
+			result = first + last;
 			_putchar (result);
 			}
 			else
