@@ -1,4 +1,4 @@
-CC=gcc
+CC=gcc #variable
 SRC= $(wildcard %.c)
 all: 1-Makefile
 	CC SRC -o school
