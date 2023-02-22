@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - print a line at conosole
+ * print_line - print a line at conosole.
+ * @n: inteer
  */
 
 void print_line(int n)
