@@ -3,5 +3,5 @@ SRC= main.c school.c
 OBJ= $(SRC:.c=.o)
 NAME= school
 all: 1-Makefile
-	$(CC) $(SRC) $(OBJ) $(NAME)
+	$(CC) $(OBJ) -o $(NAME)
 
