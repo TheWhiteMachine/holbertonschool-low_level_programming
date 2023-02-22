@@ -1,15 +1,19 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _isupper - check the code.
  *
  * Return: 1 for uppercase and 'c'c to not.
  * @c: an integer number
  */
-int _isupper(int c)
+int _isupp(int c)
 {
-	if (c >= 65 && c <= 122)
+	if (c >= 65 && c <= 90)
+	{
 		return (1);
-	else return (c);
-	return (0);
+	}
+	else
+	{
+		return (0);
+	}
 }
