@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * _isdigit - check the code.
+ * _mul - check the code.
  *
- * Return: 1 for c as a digit and 0 c to not.
+ * Return: the result of a and b multiplication.
  * @a: an integer number
  * @b: other integer
  */
 
 int mul(int a, int b)
-{
 	return (a * b);
-}
