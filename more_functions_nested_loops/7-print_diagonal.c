@@ -1,25 +1,21 @@
-#include "main.h"
+#include "mlain.h"
 
 /**
- * jack_bauer - check if a char is alphanumeric
- * Return: On lowwer 1 in not lower 0
- * On error, -1 is returned, and errno is set appropriately.
+ * print_digonal - check if a char is alphanumeric
+ * @n: integer 
  */
+
 void print_diagonal(int n)
 {	
 	int i, o;
 
-	if (n > 0 && n != 0)
+	if (n != 0 && n > 0)
 	{
-	for (o = 0; o < n; o++)
-	{
-		for (i = 0; i < (n - 1); i ++)
+		for (i = n; i == 0; i--)
 		{
-		if (i !=0)
-			_putchar(32);
+			for (; n-i) 
+			_putchar(32)
 		}
-		if (n !=0)
-			_putchar(92);
-	}
+		_putcahr(47);
 	}
 }
