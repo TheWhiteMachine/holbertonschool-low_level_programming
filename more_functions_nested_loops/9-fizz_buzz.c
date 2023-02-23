@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check if a char is alphanume  
- * Return:  0 alwys 
+ * main - check if a char is alphanume
+ * Return: 0 alwys
  */
 
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 			printf("%s", "Fizz ");
 		}
 		else if ((i % 5) == 0)
-		{	
+		{
 			if (i == 100)
 			{
 				printf("%s","Buzz");
