@@ -2,11 +2,11 @@
 
 /**
  * print_digonal - check if a char is alphanumeric
- * @n: integer 
+ * @n: integer
  */
 
 void print_diagonal(int n)
-{	
+{
 	int h, sp;
 
 	sp = 0;
