@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * Return - 0 always
- * main - check if a char is alphanumeric
+ * main - check if a char is alphanume  
+ * Return:  0 alwys 
  */
 
 int main(void)
@@ -24,6 +24,7 @@ int main(void)
 		else
 			printf("%i ", i);
 	}
+	putchar('\n');
 	return (0);
 }
 
