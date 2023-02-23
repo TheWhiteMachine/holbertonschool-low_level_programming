@@ -16,6 +16,6 @@ void print_diagonal(int n)
 			for (; n-i; o++) 
 			_putchar(32);
 		}
-		_putcahr(47);
+		_putchar(47);
 	}
 }
