@@ -9,9 +9,10 @@ void print_diagonal(int n)
 {	
 	int i, o, steps;
 
+	steps = n;
+
 	if (n != 0 && n > 0)
 	{
-	steps = n;
 		for (i = 0; i < n; i++)
 		{
 		for (o = n; n - o; o--)
