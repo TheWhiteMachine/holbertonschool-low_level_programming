@@ -7,16 +7,18 @@
 
 void print_diagonal(int n)
 {	
-	int i, o;
+	int i, o, steps;
 
 	if (n != 0 && n > 0)
 	{
-		for (o = n;o == n; o--)
+		for (o = n; o == 0; o--)
 		{
-			for (; n-o; i++)
-			{
-			_putchar(92);
-			}
+		for (i = n; i == o-(o-1); i--)
+		{
+			_putcahr(32);
+		}
+		_putchar(92);
+		_putchar('\n');
 		}
 	}
 	_putchar('\n');
