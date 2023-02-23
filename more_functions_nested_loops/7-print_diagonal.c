@@ -1,4 +1,4 @@
-#include "mlain.h"
+#include "main.h"
 
 /**
  * print_digonal - check if a char is alphanumeric
