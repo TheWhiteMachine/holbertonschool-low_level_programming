@@ -8,7 +8,7 @@
 void print_diagonal(int n)
 {	
 	int h, sp;
-	
+
 	sp = 0;
 
 	if (n != 0 && n > 0)
@@ -23,5 +23,6 @@ void print_diagonal(int n)
 		putchar('\n');
 		}
 	}
-	putchar('\n');
+	else
+		putchar('\n');
 }
