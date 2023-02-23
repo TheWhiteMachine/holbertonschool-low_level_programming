@@ -7,7 +7,7 @@
 
 void print_diagonal(int n)
 {	
-	int i, o, steps;
+	int i, o;
 
 	if (n != 0 && n > 0)
 	{
