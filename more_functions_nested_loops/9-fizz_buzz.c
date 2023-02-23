@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_digonal - check if a char is alphanumeric
+ * Return - 0 always
+ * main - check if a char is alphanumeric
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -23,6 +24,6 @@ void main(void)
 		else
 			printf("%i ", i);
 	}
-
+	return (0);
 }
 
