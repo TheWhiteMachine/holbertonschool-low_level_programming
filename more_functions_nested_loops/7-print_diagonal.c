@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_digonal - check if a char is alphanumeric
+ * print_diagonal - check if a char is alphanumeric
  * @n: integer
  */
 
