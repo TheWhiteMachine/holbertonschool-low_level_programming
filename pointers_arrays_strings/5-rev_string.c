@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * rev_string - revert a string
  * @str: a string
@@ -6,33 +7,28 @@
 void rev_string(char *s)
 {
     
-//        char s[] = "holberton";
-        int i,o = 0;
+        int i = 0,
+	    o = 0;
         char r[600];
 
         while (s[i])
         {
                 r[i] = s[i];
-                i++;
+		i++;
+
         }
         i -= 1;
- //       printf("length %i\n",i);
         while (i >= 0)
         {
-  //              printf("letra %c en %i ",r[i],i);
                 r[o] = s[i];
                 i--;
                 o++;
         }
-   //     printf("\n--------\n");
-        o -= 1;
-    //    printf("&s",r);
-   //     putchar('\n');
+	i += 1;
         while (r[i])
         {
                 s[i] = r[i];
                 i++;
         }
-  //      printf("Array invertido %s\n",r);
-  //      printf("Original copiado del invertido ---  %s",s);
+	*s = *r;
 }
