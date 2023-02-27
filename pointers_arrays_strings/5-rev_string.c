@@ -15,9 +15,8 @@ void rev_string(char *s)
 		i++;
 	}	
 
-	char r[i];
+	char r[i-1];
 
-	i -= 1;
 	while (i >= 0)
 	{
 		s[i] = r[o];
