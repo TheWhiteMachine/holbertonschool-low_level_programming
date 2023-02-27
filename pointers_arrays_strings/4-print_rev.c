@@ -11,10 +11,9 @@ void print_rev(char *s)
 	{
 	last++;
 	}
-	last += 1;
 	while (last >= 0)
 	{
-		_putchar(s[last]);
+		_putchar(s[last+1]);
 		last--;
 	}
 	_putchar('\n');
