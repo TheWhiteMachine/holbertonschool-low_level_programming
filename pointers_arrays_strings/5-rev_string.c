@@ -11,8 +11,8 @@ void rev_string(char *s)
 
 	while (s[i])
 	{
-		i++;
 		r[i] = s[i];
+		i++;
 	}
 	i -= 1;
 	while (i >= 0)
@@ -24,6 +24,6 @@ void rev_string(char *s)
 	while (r[i])
 	{
 		s[i] = r[i];
-		i += 1;
+		i++
 	}
 }
