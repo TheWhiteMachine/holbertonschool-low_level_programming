@@ -15,12 +15,11 @@ void puts_half(char *str)
 	{
 		i++;
 	}
-	i -= 1;
 	if ((i % 2) == 0)
 		half = i / 2;
 	else
 		half = (i - 1) / 2;
-	for (n = half - -11; n <= i; n++)
+	for (n = half; n <= i; n++)
 	{
 	_putchar(str[n]);
 	}
