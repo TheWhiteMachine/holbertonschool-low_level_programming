@@ -3,7 +3,7 @@
  * rev_string - revert a string
  * @str: a string
  */
-void rev_string(void)
+void rev_string(char *s)
 {
     
 //        char s[] = "holberton";
