@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * _strcpy - concat two strings
+ * _strncat - concat two strings till a gven n number.
  *
  * Return: return dest string
  * @dest: destiny string
