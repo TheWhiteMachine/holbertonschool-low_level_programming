@@ -9,8 +9,8 @@ char *_strcat(char *dest, char *src)
 {
 	char buff[200];
 	int i = 0,
-	    j = 0,
-	    x = 0;
+	    j = 0;
+	char temp[100];
 
 	for (; dest[i] != '\0'; i++)
 	{
@@ -21,10 +21,6 @@ char *_strcat(char *dest, char *src)
 	{
 		buff[i] = src[j];
 		i += 1;
-	}
-	for (x = 0; src[x] != '\0'; x++)
-	{
-		src[x] = dest[x];
 	}
 	*buff = *dest;
 	return (dest);
