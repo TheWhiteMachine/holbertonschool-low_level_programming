@@ -6,26 +6,24 @@
  */
 void puts2(char *str)
 {
-	int i, n, half
+	int t, half;
 	i = 0;
 
-	while (str[i])
+	while (str[t])
 	{
-		i++;
+		t++;
 	}
-	i -= 1;
-	if ((i % 2) == 1)
+	if ((t % 2) == 1)
 	{
-		half = (i - 1) / 2;
+		half = (t - 1) / 2;
 	}
 	else
 	{
 		half = half / 2;
 	}
-	half += 1;
-	for (n = half; n < i; n++)
+	for (; half < t; half++)
 	{
-		_putchar(str[n]);
+		_putchar(str[half]);
 	}
 	_putchar('\n');
 }
