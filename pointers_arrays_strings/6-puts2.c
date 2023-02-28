@@ -13,7 +13,6 @@ void puts2(char *str)
 	{
 		t++;
 	}
-	t -= 1;
 	if ((t % 2) != 0)
 	{
 		half = (t-1) / 1;
