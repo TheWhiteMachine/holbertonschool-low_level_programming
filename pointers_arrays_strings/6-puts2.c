@@ -13,6 +13,7 @@ void puts2(char *str)
 	{
 		t++;
 	}
+	t -= 1;
 	if ((t % 2) != 0)
 	{
 		half = (t-1) / 1;
@@ -21,7 +22,7 @@ void puts2(char *str)
 	{
 		half = half / 2;
 	}
-	for (; half < (t-5); half++)
+	for (; half < t; half++)
 	{
 		_putchar(str[half]);
 	}
