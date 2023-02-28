@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _strcat - concat seccond string into first
  *
- * Return: Always 0.
+ * Return: dest.
+ * @dest: string
+ * @src: seccond string
  */
 char *_strcat(char *dest, char *src)
 {
@@ -22,6 +24,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[i] = '\0';
-	
+
 	return (dest);
 }
