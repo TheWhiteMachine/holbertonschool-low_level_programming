@@ -16,7 +16,7 @@ char *_strcat(char *dest, char *src)
 		buff[i] = dest[i];
 	}
 	i += 1;
-	for (j = 0; src[j] '\0'; j++)
+	for (j = 0; src[j] != '\0'; j++)
 	{
 		buff[i] = src[j];
 		i += 1;
