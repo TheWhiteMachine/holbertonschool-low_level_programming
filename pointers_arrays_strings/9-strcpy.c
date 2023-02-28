@@ -16,13 +16,13 @@ char *_strcpy(char *dest, char *src)
 	do 
 	{
 		i++;
-	} while (scr[i] != '\0');
+	} while (src[i] != '\0');
 
 	do
 	{
-		desto[j] = src[j];
+		dest[j] = src[j];
 		j++;
-	} while (sci[o] != '\0');
+	} while (src[o] != '\0');
 
 	return (dest);
 }
