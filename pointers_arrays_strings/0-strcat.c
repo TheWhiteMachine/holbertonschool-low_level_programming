@@ -10,7 +10,6 @@ char *_strcat(char *dest, char *src)
 	char buff[200];
 	int i = 0,
 	    j = 0;
-	char temp[100];
 
 	for (; dest[i] != '\0'; i++)
 	{
