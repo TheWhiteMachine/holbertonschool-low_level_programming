@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strccpy - copy string pinters
+ * _strcpy - copy string pinters
  *
  * Return: return dest string
  * @dest: destiny string
@@ -10,7 +10,8 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	*dest = *src;
-	return (dest);
+	char temp = *src;
+	*dest = temp;
+	return (temp);
 }
 
