@@ -20,7 +20,7 @@ void puts2(char *str)
         }
         else
         {
-                half = half / 2;
+                half = t / 2;
         }
         for (; half < t; half++)
         {
