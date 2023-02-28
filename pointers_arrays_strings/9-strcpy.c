@@ -10,13 +10,19 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
+	int i = 0,
+	    j = 0;
 
-	while (src[i] != '\0')
+	do 
 	{
-		dest[i] = src[i];
 		i++;
-	}
+	} while (scr[i] != '\0');
+
+	do
+	{
+		desto[j] = src[j];
+		j++;
+	} while (sci[o] != '\0');
 
 	return (dest);
 }
