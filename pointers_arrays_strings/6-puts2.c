@@ -22,6 +22,7 @@ void puts2(char *str)
 	{
 		half = half / 2;
 	}
+	half += 1;
 	for (; half < (t-1); half++)
 	{
 		_putchar(str[half]);
