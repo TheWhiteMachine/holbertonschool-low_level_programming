@@ -8,6 +8,7 @@
 char *_strcat(char *dest, char *src)
 {
 	char buff[200];
+	char first[200];
 	int i = 0,
 	    j = 0;
 
@@ -22,7 +23,8 @@ char *_strcat(char *dest, char *src)
 		i += 1;
 	}
 	src[j] = '\0';
-	dest = *src;
+	first = dest;
+	src = first;
 	*buff = *dest;
 	return (dest);
 }
