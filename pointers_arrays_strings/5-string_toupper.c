@@ -6,9 +6,9 @@
  * Return: c.
  * @c: a string of char.
  */
-char *string_toupper(char *)
+char *string_toupper(char *c)
 {
-	char c, aux;
+	char aux;
 	int i = 0;
 
 	for (i; c[i] == '\0'; i++)
