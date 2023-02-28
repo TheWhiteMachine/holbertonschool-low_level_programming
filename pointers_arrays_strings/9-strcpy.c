@@ -3,13 +3,14 @@
 /**
  * _strccpy - copy string pinters
  *
- * Return: Always value of a string
+ * Return: return dest string
  * @dest: destiny string
- * @src source string.
+ * @src: source string.
  */
 
 char *_strcpy(char *dest, char *src)
 {
 	*dest = *src;
+	return (dest);
 }
 
