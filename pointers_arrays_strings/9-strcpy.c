@@ -15,11 +15,11 @@ char *_strcpy(char *dest, char *src)
 
 	while (src[i])
 	{
-		i++
+		i++;
 	}
-	while (o >= i)
+	while (o <= i)
 	{
-		*dest = *src;
+		*dest[o] = *src[o];
 		o++;
 	}
 
