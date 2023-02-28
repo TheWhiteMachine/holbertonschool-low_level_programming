@@ -16,13 +16,13 @@ int _strcmp(char *s1, char *s2)
 
 	while (s1[i1])
 	{
-		chv1 += s1[i1] - '0';
+		chv1 += (s1[i1] - '0') - 40;
 		i1 += 1;
 	}
 
 	while (s2[i2])
 	{
-		chv2 += s2[i2] - '0';
+		chv2 += (s2[i2] - '0') - 40;
 		i2 += 1;
 	}
 
