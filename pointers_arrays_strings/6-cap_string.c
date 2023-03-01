@@ -7,11 +7,14 @@
  */
 char *cap_string(char *s)
 {
-	int i = 0;
+	int i = 1;
 
-	while (s[i])
+	if (s[0] >= 97 && s[0] <= 122)
 	{
 		s[0] -= 32;
+	}
+	while (s[i])
+	{
 		if (s[i] == '!' || s[i] == '?' || s[i] == '"')
 		{
 			if (s[i + 1] >= 97 && s[i + 1] <= 122)
