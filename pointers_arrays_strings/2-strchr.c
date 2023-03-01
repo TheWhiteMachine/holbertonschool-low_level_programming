@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strchr - encode in 1337.
+ * _strchr - search for a char in a string
  * @c: c a char to find.
  * @s: a string where to search
  * Return: pointer to first char occurrence.
@@ -9,13 +9,12 @@ char *_strchr(char *s, char c)
 {
 	int i = 1;
 
-	while (s[i])
+	for (i = 0; s[i]; i++)
 	{
-		if(s[i] == c)
+		if (s[i] == c)
 		{
 			return (s + i);
 		}
-		i++;		
 	}
 	return ('\0');
 }
