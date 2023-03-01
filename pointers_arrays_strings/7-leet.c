@@ -18,7 +18,7 @@ char *leet(char *c)
 		{
 			if (c[i] == code[n])
 			{
-				c[i] == key[n];
+				c[i] = key[n];
 			}
 		}
 		i++;
