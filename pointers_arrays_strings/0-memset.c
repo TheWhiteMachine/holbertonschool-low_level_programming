@@ -2,16 +2,17 @@
 #include <stdio.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ * memset - prints a byte in memory pointed
+ * @s: a string pointer
+ * b: a char to fill with
+ * @n: limit to fill the memory
  *
- * Return: Nothing.
+ * Return: s a reult of the write
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i = 0;
+	unsigned int i = 0;
 
 	while (s[i] || i <= n)
 	{
