@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * memset - prints a byte in memory pointed
+ * memset - save a constant byte in memory pointed
  * @s: a string pointer
  * b: a char to fill with
  * @n: limit to fill the memory
