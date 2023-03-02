@@ -14,6 +14,7 @@ char *_strstr(char *haystack, char *needle)
 
 	while (*haystack)
 	{
+		found = 0;
 		if (*haystack == needle[0])
 		{	
 			pointer = haystack;
