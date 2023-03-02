@@ -11,11 +11,11 @@ void print_chessboard(char (*a)[8])
 	int x = 0,
 	    y = 0;
 
-	for (; x < 8; x++)
+	for (; y < 8; y++)
 	{
-		for (; y < 8; y++)
+		for (; x < 8; x++)
 		{
-			printf("%s",*a[x,y]);
+			printf("%s",a[x,y]);
 		}
 	printf("\n");
 	}
