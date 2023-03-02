@@ -2,13 +2,16 @@
 /**
  * _strstr -  gets the length of a prefix substring.
  *
- * Return: number of byte of a prefix substing
+ * Return: a pointer to where is found a string
  * @haystack: a string where to search
  * @needle: a string to search
  */
 char *_strstr(char *haystack, char *needle)
 {
 	int i = 0;
+
+	if (*needle == 0)
+		return (haystack);
 
 	while (*haystack)
 	{
@@ -21,6 +24,6 @@ char *_strstr(char *haystack, char *needle)
 		i++;
 		}
 		haystack++;
-	}	
-	return ('\0');	
+	}
+	return ('\0');
 }
