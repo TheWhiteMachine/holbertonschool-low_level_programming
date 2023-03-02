@@ -5,7 +5,7 @@
  * @s: segment to return bytes from
  * @accept: the bytes to include
  *
- * Return: a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
+ * Return: a pointer to the byte in s that matches accept or NULL
  * of bytes from @accept
  */
 char *_strpbrk(char *s, char *accept)
