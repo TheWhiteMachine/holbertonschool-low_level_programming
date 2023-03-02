@@ -20,8 +20,10 @@ char *_strstr(char *haystack, char *needle)
 			for (i = 1; needle[i];i++)
 			{
 				if (*haystack == needle[i])
+				{
 					found = 1;
-				else 
+				}
+					else 
 				{
 					pointer = NULL;
 					found = 0;
