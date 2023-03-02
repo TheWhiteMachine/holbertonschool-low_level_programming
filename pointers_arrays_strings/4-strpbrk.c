@@ -7,7 +7,6 @@
  *
  * Return: a pointer to the byte in s that matches accept or NULL
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
@@ -23,4 +22,3 @@ char *_strpbrk(char *s, char *accept)
 	}
 	return (NULL);
 }
-
