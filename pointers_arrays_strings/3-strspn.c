@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * _strcmp - compare two strings.
+ * _strspn -  gets the length of a prefix substring.
  *
- * Return: positve or negative diference bt s2 and s1 or 0 on equals
- * @s1: destiny string
- * @s2: source string.
+ * Return: number of byte of a prefix substing
+ * @s: string
+ * @accept: char
  */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int b = 0;
 	int i,
 	    n = 0;
-		
+
 	while (s[n])
 	{
 		for (i = 0; accept[i]; i++)
