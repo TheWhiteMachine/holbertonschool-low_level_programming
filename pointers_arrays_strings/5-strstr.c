@@ -14,7 +14,6 @@ char *_strstr(char *haystack, char *needle)
 
 	while (*haystack)
 	{
-		found = 0;
 		if (*haystack == needle[0])
 		{	
 			pointer = haystack;
@@ -32,5 +31,8 @@ char *_strstr(char *haystack, char *needle)
 			}
 		}
 	}
-	return (pointer);
+	if (found == 1)
+		return (pointer);
+	else
+		return (pointer);
 }
