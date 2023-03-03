@@ -7,7 +7,7 @@
  */
 int _atoi(char *s)
 {
-	unsigned int num;
+	unsigned int num = 0;
 	int j = 0,
 	    signs = 0;
 
@@ -18,7 +18,7 @@ int _atoi(char *s)
 		{
 			num = (num * 10) + s[j] - '0';
 
-			if (s[j + 1]  < '0' || s[j + 1] > '9' || s[j + 1] == '\0')
+		if (s[j + 1]  < '0' || s[j + 1] > '9' || s[j + 1] == '\0')
 				break;
 		}
 		if (s[j] == '-')
