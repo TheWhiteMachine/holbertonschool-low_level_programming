@@ -13,13 +13,13 @@ void print_diagsums(int *a, int size)
 	int i;
 
 
-	for (i = 0; i < size -1; i++)
+	for (i = 0; i < size; i++)
 	{
 		d1 += a[i];
 		a += size;
 	}
 	a -= size;
-	for (i = 0; i < size -1; i++)
+	for (i = 0; i < size; i++)
 	{
 		d2 += a[i];
 		a -= size;
