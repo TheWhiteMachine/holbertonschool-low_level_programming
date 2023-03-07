@@ -13,6 +13,6 @@ int main(int argc, char **argv)
 {
 	(void)argv;
 
-	printf("%s\n", argc);
+	printf("%i\n", argc);
 	return (0);
 }
