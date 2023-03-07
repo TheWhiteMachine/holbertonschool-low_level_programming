@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * mynameis - print its name
+ * main - print its name
  * Return: Always 0
  * @argc count or arguments
  * @argv: pointer to a array of the arguments
