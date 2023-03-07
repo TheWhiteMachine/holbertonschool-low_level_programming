@@ -24,6 +24,6 @@ int main(int argc, char **argv)
 
 	n1 = strtol(argv[1], &ch1, 10);
 	n2 = strtol(argv[2], &ch2, 10);
-	printf("%d\n",n1 * n2);
-	return(0);
+	printf("%d\n", n1 * n2);
+	return (0);
 }
