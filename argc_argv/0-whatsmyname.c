@@ -5,8 +5,8 @@
 /**
  * main - print its name
  * Return: Always 0
- * @argc count or arguments
- * @argv: pointer to a array of the arguments
+ * @argc: counts arguments of program
+ * @argv: pointer to a array with the arguments
  */
 int main(int argc, char **argv)
 {
