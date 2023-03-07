@@ -10,7 +10,7 @@ int test(int n, int div)
 {
 
 	if (n < 2)
-	{	
+	{
 		return (0);
 	}
 	if (div == 1)
