@@ -4,14 +4,14 @@
 
 /**
  * mynameis - print its name
- *
- * Return: 
- * @argc cout or arguments
+ * Return: Always 0
+ * @argc count or arguments
  * @argv: pointer to a array of the arguments
  */
 int main(int argc, char **argv)
 {
 	(void)argc;
-	printf("%d",*argv[0]);
+
+	printf("%s", *argv[0]);
 	return(0);
 }
